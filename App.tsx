@@ -9,7 +9,7 @@ export default function App() {
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'white'}}>
       <TouchableOpacity onPress={() => {
       }}>
-        <Text>Hồng Thuý Đẹp zai</Text>
+        <Text>Hồng Thuý Đẹp zaiii</Text>
       </TouchableOpacity>
       {/* <View style={styles.progress}> */}
           <View

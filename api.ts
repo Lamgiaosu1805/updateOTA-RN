@@ -7,7 +7,7 @@ export async function requestUpdateBundle() {
    const endpoint = Platform.OS === 'ios' ? "ios-updates" : "androids";
    const version = DeviceInfo.getVersion(); // Get the current app version
    const response = await axios.get(
-       `http://192.168.0.101:1337/api/${endpoint}?populate=*&filters[targetVersion][$eq]=${version}&sort=id:desc`
+       `https://codePush.vnfite.com.vn/api/${endpoint}?populate=*&filters[targetVersion][$eq]=${version}&sort=id:desc`
    );
    return response.data;
 }

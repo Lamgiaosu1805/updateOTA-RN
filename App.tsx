@@ -9,7 +9,7 @@ export default function App() {
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'white'}}>
       <TouchableOpacity onPress={() => {
       }}>
-        <Text>Lâm Ngon zai</Text>
+        <Text>Lâm Ngon zai 223344</Text>
       </TouchableOpacity>
       {/* <View style={styles.progress}> */}
           <View

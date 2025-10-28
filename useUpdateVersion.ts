@@ -49,7 +49,7 @@ export const useUpdateVersion = () => {
                             text: "Update",
                             onPress: () =>
                                 startUpdateBundle(
-                                    `http://192.168.0.101:1337${itemVersion?.bundle[0]?.url}`,
+                                    `https://codePush.vnfite.com.vn${itemVersion?.bundle[0]?.url}`,
                                     latestVersion
                                 ),
                         },
